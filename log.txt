@@ -1,0 +1,252 @@
+.LOG
+21:28 12-12-2015
+@echo off
+color a 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+echo
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+pause  
+
+21:37 12-12-2015
+@echo off
+color a 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+pause  
+
+
+21:42 12-12-2015
+@echo off
+color 9
+echo Here is the list of action u can perform 
+echo 1.Open any .EXE file
+echo 2.open any multimedia files
+echo 3.open editor (cmd)
+echo 4.open tasklist and kill task
+echo 5. shutdown/restart/log off ur pc
+pause 
+21:44 12-12-2015
+@echo off
+color a
+echo Here is the list of action u can perform 
+echo 1.Open any .EXE file
+echo 2.open any multimedia files
+echo 3.open editor (cmd)
+echo 4.open tasklist and kill task
+echo 5. shutdown/restart/log off ur pc
+pause 
+
+@echo off
+color a 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+call 2
+pause  
+
+
+21:56 12-12-2015
+for start option
+@echo off 
+color a
+echo type below what do you want to open. for example for notepad
+echo   type "notepad" without "" 
+set /p a="open:"
+start %a%
+pause  
+22:06 12-12-2015
+@echo off
+color a 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+call 2
+ECHO ========================================================================
+set /p b="chose ACTION no. :"
+echo ````````````````````````````````````````````````````````````````````````````````
+IF %B% EQU 1 CALL 3
+call 2
+pause  
+
+
+22:12 12-12-2015
+@echo off
+color a 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+:A
+call 2
+ECHO ========================================================================
+set /p b="chose ACTION no. :"
+echo ````````````````````````````````````````````````````````````````````````````````
+IF %B% EQU 1 CALL 3
+IF %B% EQU 2 CALL 4
+GOTO A
+pause  
+
+
+22:16 12-12-2015
+@echo off
+color a 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+:A
+call 2
+ECHO ========================================================================
+set /p b="chose ACTION no. :"
+echo ````````````````````````````````````````````````````````````````````````````````
+IF %B% EQU 1 CALL 3
+IF %B% EQU 2 CALL 4
+GOTO A
+pause  
+
+
+22:22 12-12-2015
+@echo off
+Tasklist
+set /p a="type pid of task to kill:"
+taskkill/pid %a% /f
+echo Done 
+Pause
+22:24 12-12-2015
+this is for cls button that i added reg :69
+@echo off
+color a
+:A 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+call 2
+ECHO ========================================================================
+set /p b="chose ACTION no. :"
+echo ````````````````````````````````````````````````````````````````````````````````
+IF %B% EQU 1 CALL 3
+IF %B% EQU 2 CALL 4
+cls
+GOTO A
+pause  
+
+
+22:27 12-12-2015
+@echo off
+color a
+:A 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+call 2
+ECHO ========================================================================
+set /p b="chose ACTION no. :"
+echo ````````````````````````````````````````````````````````````````````````````````
+IF %B% EQU 1 CALL 3
+IF %B% EQU 2 CALL 4
+IF %B% EQU 3 CALL 5
+cls
+GOTO A
+pause  
+
+
+22:30 12-12-2015
+now its turn to shutdown option 
+22:38 12-12-2015
+@echo off
+color a 
+echo a.Shutdown
+echo b.Restart
+echo c.Log off
+set /p X="chose(a,b,c):"
+IF %X% EQU a shutdown/s
+IF %X% EQU b shutdown/r
+IF %X% EQU c shutdown/l 
+pause
+22:39 12-12-2015
+@echo off
+color a
+:A 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+call 2
+ECHO ========================================================================
+set /p b="chose ACTION no. :"
+echo ````````````````````````````````````````````````````````````````````````````````
+IF %B% EQU 1 CALL 3
+IF %B% EQU 2 CALL 4
+IF %B% EQU 3 CALL 5
+IF %B% EQU 4 CALL 6
+cls
+GOTO A
+pause  
+
+
+22:40 12-12-2015
+now tym to say bye(exit) :(
+22:41 12-12-2015
+@echo off
+color a
+:A 
+Echo                            WELCOME 
+echo                          BAT CHAIN 1.0
+echo                        created by Ankur
+
+echo This is the series of batch file linked together to perform various action
+echo      on windows.its like a CUI based OS's copy (basic level).
+echo   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+call 2
+ECHO ========================================================================
+set /p b="chose ACTION no. :"
+echo ````````````````````````````````````````````````````````````````````````````````
+IF %B% EQU 1 CALL 3
+IF %B% EQU 2 CALL 4
+IF %B% EQU 3 CALL 5
+IF %B% EQU 4 CALL 6
+IF %B% EQU 5 exit
+cls
+GOTO A
+pause  
+
+
+02:13 PM 14-05-2017
+Made New Changes
