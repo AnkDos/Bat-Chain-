@@ -1,7 +1,7 @@
 @echo off
-Title TED Hotspot
+Title AnkDos Hotspot
 Cls
-echo TED Hotspot
+echo AnkDoS Hotspot
 echo Created By Ankur Pandey
 echo 1. Make sure, WiFi is on and you have run the CMD as admin.
 echo 2. If this is your first time then give input 'A'(without ''). 
